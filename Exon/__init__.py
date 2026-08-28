@@ -130,8 +130,6 @@ else:
         sw = None
         LOGGER.warning("ᴄᴀɴ'ᴛ ᴄᴏɴɴᴇᴄᴛ ᴛᴏ sᴘᴀᴍᴡᴀᴛᴄʜ!")
 
-from Exon.modules.sql import SESSION
-
 telegraph = Telegraph()
 telegraph.create_account(short_name="Exon")
 
