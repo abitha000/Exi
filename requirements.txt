@@ -3,7 +3,7 @@ aiofiles
 aiohttp>=3.9.2
 httpx[http2]>=0.18.1,<1.0.0
 alphabet_detector==0.0.7
-beautifulsoup4==4.12.3
+beautifulsoup4==4.11.1
 bleach==6.1.0
 cachetools
 configparser==5.3.0
@@ -53,4 +53,7 @@ search_engine_parser
 googletrans==2.4.0
 gpytranslate==1.5.1
 cloudscraper==1.2.70
+carbonnow
 pretty_errors
+setuptools==81.0.0
+APScheduler==3.10.4
