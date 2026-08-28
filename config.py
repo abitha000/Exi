@@ -12,9 +12,9 @@ class Config(object):
     API_HASH = getenv("API_HASH", "149f7e13d7d861b27cffc3ab1fd52b22")
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     SPAMWATCH_API = None
-    TOKEN = getenv("TOKEN", 8961546223:AAFgl7Ls8aPqH-E-TWNoU_ORNfwTmct5L64)
+    TOKEN = getenv("TOKEN", "8961546223:AAFgl7Ls8aPqH-E-TWNoU_ORNfwTmct5L64")
     OWNER_ID = int(getenv("OWNER_ID", 7255612720)
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "Rohith_offcl)
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "Rohith_offcl")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
     LOGGER_ID = int(getenv("LOGGER_ID", "-1002747283382"))
     MONGO_URI = getenv(
