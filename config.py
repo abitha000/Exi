@@ -9,7 +9,7 @@ class Config(object):
     LOGGER = True
 
     API_ID = int(getenv("API_ID", 24401235))
-    API_HASH = getenv("API_HASH", 149f7e13d7d861b27cffc3ab1fd52b22)
+    API_HASH = getenv("API_HASH", "149f7e13d7d861b27cffc3ab1fd52b22")
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     SPAMWATCH_API = None
     TOKEN = getenv("TOKEN", 8961546223:AAFgl7Ls8aPqH-E-TWNoU_ORNfwTmct5L64)
