@@ -53,7 +53,6 @@ search_engine_parser
 googletrans==2.4.0
 gpytranslate==1.5.1
 cloudscraper==1.2.70
-carbonnow
 pretty_errors
 setuptools==81.0.0
 APScheduler==3.6.3
