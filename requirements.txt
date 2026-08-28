@@ -54,5 +54,5 @@ googletrans==2.4.0
 gpytranslate==1.5.1
 cloudscraper==1.2.70
 pretty_errors
-setuptools==81.0.0
+setuptools==80.9.0
 APScheduler==3.6.3
