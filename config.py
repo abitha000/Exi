@@ -53,12 +53,12 @@ class Config(object):
 
     REDIS_URL = getenv(
         "REDIS_URL",
-        "redis://default:wK6ZCiclq4iQKYpgfY90v6kd6WdPfEwl@redis-10186.c263.us-east-1-2.ec2.cloud.redislabs.com:10186/default",
+        "redis-cli --tls -u redis://default:gQAAAAAAAtoaAAIgcDE2OGY2ZTM4MDM2ZTA0NTQyYjA4NTdhYjk1ZjBlODIxNg@holy-halibut-186906.upstash.io:6379",
     )
 
     # PostgreSQL is optional.
     # MongoDB remains the main database configured above.
-    DATABASE_URL = getenv("DATABASE_URL", None)
+    DATABASE_URL = getenv("DATABASE_URL", "postgresql://postgres:KaiPulla@009@db.wonzoqheqdpcltqgfqrd.supabase.co:5432/postgres")
 
     if DATABASE_URL and DATABASE_URL.startswith("postgres://"):
         DATABASE_URL = DATABASE_URL.replace(
