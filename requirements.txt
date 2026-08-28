@@ -53,5 +53,4 @@ search_engine_parser
 googletrans==2.4.0
 gpytranslate==1.5.1
 cloudscraper==1.2.70
-carbonnow
 pretty_errors
