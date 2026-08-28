@@ -58,7 +58,7 @@ class Config(object):
 
     # PostgreSQL is optional.
     # MongoDB remains the main database configured above.
-    DATABASE_URL = getenv("DATABASE_URL", "postgresql://postgres:KaiPulla@009@db.wonzoqheqdpcltqgfqrd.supabase.co:5432/postgres")
+    DATABASE_URL = getenv("DATABASE_URL", "postgresql://postgres.wonzoqheqdpcltqgfqrd:KaiPulla009@aws-0-ap-northeast-2.pooler.supabase.com:5432/postgres")
 
     if DATABASE_URL and DATABASE_URL.startswith("postgres://"):
         DATABASE_URL = DATABASE_URL.replace(
